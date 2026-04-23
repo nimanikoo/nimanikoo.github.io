@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Senior Backend Engineer specializing in .NET, Microservices, and Cloud Architecture">
+  <title>Nima Nikoo - Senior Backend Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand" id="navBrand">Nima Nikoo</div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Header/Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1 id="heroName">Nima Nikoo</h1>
+      <p class="hero-title" id="heroTitle">Senior Backend Engineer</p>
+      <p class="hero-subtitle" id="heroSubtitle">.NET | Microservices | Cloud Architecture</p>
+      <div class="hero-contact">
+        <a href="mailto:" id="emailLink" class="btn btn-primary">Email</a>
+        <a href="" id="githubLink" class="btn btn-secondary" target="_blank">GitHub</a>
+        <a href="" id="linkedinLink" class="btn btn-secondary" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p id="aboutText"></p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-list" id="experienceList"></div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="loading" id="projectsLoading">Loading projects...</p>
+        <div class="projects-grid" id="projectsGrid"></div>
+        <p class="error" id="projectsError" style="display: none;"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Nima Nikoo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

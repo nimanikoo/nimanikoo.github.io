@@ -1,0 +1,49 @@
+{
+  "personal": {
+    "name": "Nima Nikoo",
+    "title": "Senior Backend Engineer",
+    "subtitle": ".NET | Microservices | Cloud Architecture",
+    "email": "nima@example.com",
+    "github": "nimanikoo",
+    "linkedin": "https://linkedin.com/in/nimanikoo"
+  },
+  "about": "Experienced backend engineer specializing in building scalable microservices architecture. Passionate about clean code, system design, and mentoring junior developers. Strong proficiency in .NET, cloud platforms, and distributed systems.",
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [".NET/C#", "JavaScript", "SQL", "Python"]
+    },
+    {
+      "category": "Frameworks & Tools",
+      "items": ["ASP.NET Core", "Entity Framework", "Docker", "Kubernetes"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL Server", "PostgreSQL", "Redis", "MongoDB"]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": ["Azure", "AWS", "CI/CD Pipelines", "Microservices"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "Tech Solutions Inc.",
+      "period": "2021 - Present",
+      "description": "Led design and implementation of microservices architecture serving 10M+ users. Mentored team of 5 engineers and improved system performance by 40%."
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "Digital Innovations Ltd.",
+      "period": "2018 - 2021",
+      "description": "Developed RESTful APIs and microservices using ASP.NET Core. Implemented CI/CD pipelines and containerized applications with Docker and Kubernetes."
+    },
+    {
+      "title": "Junior Developer",
+      "company": "StartUp Labs",
+      "period": "2016 - 2018",
+      "description": "Built backend services and database solutions. Collaborated with frontend team to deliver features and resolve production issues."
+    }
+  ]
+}
