@@ -6,14 +6,14 @@
 }
 
 :root {
-  --color-bg: #0a0e27;
-  --color-bg-secondary: #0f1535;
-  --color-text: #e0e6ff;
-  --color-text-secondary: #a8b5d1;
-  --color-accent: #00d9ff;
-  --color-accent-hover: #00b8d4;
-  --color-border: #1a1f3a;
-  --color-card-bg: #101629;
+  --color-bg: #0f172a;
+  --color-bg-secondary: #0f172a;
+  --color-text: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+  --color-accent: #38bdf8;
+  --color-accent-hover: #0ea5e9;
+  --color-border: #1e293b;
+  --color-card-bg: #1e293b;
   --spacing-unit: 1rem;
   --max-width: 1200px;
   --transition: all 0.3s ease;
@@ -137,7 +137,7 @@ a:hover {
 .hero {
   padding: calc(var(--spacing-unit) * 8) 0;
   text-align: center;
-  background: linear-gradient(135deg, rgba(0, 217, 255, 0.05) 0%, rgba(0, 217, 255, 0.02) 100%);
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, rgba(56, 189, 248, 0.02) 100%);
 }
 
 .hero h1 {
@@ -239,7 +239,7 @@ a:hover {
 }
 
 .skill-tag {
-  background-color: rgba(0, 217, 255, 0.1);
+  background-color: rgba(56, 189, 248, 0.1);
   color: var(--color-accent);
   padding: calc(var(--spacing-unit) * 0.4) calc(var(--spacing-unit) * 0.8);
   border-radius: 4px;
@@ -301,7 +301,7 @@ a:hover {
 .project-card:hover {
   border-color: var(--color-accent);
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0, 217, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.1);
 }
 
 .project-name {
