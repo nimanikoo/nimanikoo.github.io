@@ -130,6 +130,43 @@ function renderExperience() {
 }
 
 /**
+ * Render education section
+ */
+function renderEducation() {
+  if (!appData || !appData.education) return;
+
+  const educationList = document.getElementById('educationList');
+  if (!educationList) return;
+  educationList.innerHTML = '';
+
+  appData.education.forEach(edu => {
+    const itemDiv = document.createElement('div');
+    itemDiv.className = 'experience-item'; // Reuses styles from experience
+
+    const titleEl = document.createElement('h3');
+    titleEl.textContent = edu.degree;
+
+    const institutionEl = document.createElement('div');
+    institutionEl.className = 'experience-company';
+    institutionEl.textContent = edu.institution;
+
+    const periodEl = document.createElement('div');
+    periodEl.className = 'experience-period';
+    periodEl.textContent = edu.period;
+
+    const descriptionEl = document.createElement('p');
+    descriptionEl.textContent = edu.description;
+
+    itemDiv.appendChild(titleEl);
+    itemDiv.appendChild(institutionEl);
+    itemDiv.appendChild(periodEl);
+    itemDiv.appendChild(descriptionEl);
+
+    educationList.appendChild(itemDiv);
+  });
+}
+
+/**
  * Render projects from GitHub API
  */
 async function renderProjects() {
@@ -291,6 +328,7 @@ async function initApp() {
     renderAbout();
     renderSkills();
     renderExperience();
+    renderEducation();
 
     // Initialize mobile menu
     initMobileMenu();

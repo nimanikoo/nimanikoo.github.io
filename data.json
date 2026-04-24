@@ -87,6 +87,12 @@
       "description": "Optimized core back-office systems resulting in 70% reduction in database load. Designed API Gateway using Ocelot for scalable routing. Built distributed job scheduling infrastructure with Quartz.NET and monitoring dashboard. Implemented payment and wallet systems for installment processing. Designed load-balanced order assignment system using weighted round-robin. Improved automation pipelines for insurance reconciliation using Python."
     },
     {
+      "title" : "Member of Dontnet Foundation",
+      "company": "Dotnet Foundation",
+      "period": "2023 - Present",
+      "description": "Contributed to various open-source projects, focusing on software engineering best practices and community engagement."
+    },
+    {
       "title": ".NET Developer",
       "company": "Fadak Trains (Railway Systems)",
       "period": "2023 - 2024",
@@ -97,6 +103,20 @@
       "company": "Agrofood CRM Solutions",
       "period": "2021 - 2023",
       "description": "Designed product and pricing management system for enterprise CRM. Achieved 90%+ test coverage using xUnit and Moq. Built scalable backend using .NET 6, CQRS, MediatR, and Docker. Implemented integration and persistence testing strategies for large-scale backend systems."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science - Software Engineering",
+      "institution": "Islamic Azad University, Karaj Branch",
+      "location": "Karaj, Alborz",
+      "period": "2023 - Present"
+    },
+    {
+      "degree": "Bachelor of Engineering - Computer Software Engineering",
+      "institution": "Behbahan Khatam Al-Anbia University of Technology",
+      "location": "Khuzestan",
+      "period": "2018 - 2022"
     }
   ]
 }
