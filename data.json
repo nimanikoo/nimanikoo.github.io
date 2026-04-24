@@ -1,49 +1,102 @@
 {
   "personal": {
-    "name": "Nima Nikoo",
-    "title": "Senior Backend Engineer",
-    "subtitle": ".NET | Microservices | Cloud Architecture",
-    "email": "nima@example.com",
+    "name": "Nima Nikoonazar",
+    "title": "Senior Software Engineer",
+    "subtitle": ".NET | Python | Microservices | Distributed Systems | Kafka | Kubernetes | System Design | LLM Infrastructure",
+    "email": "nikoonazar.nima@gmail.com",
     "github": "nimanikoo",
-    "linkedin": "https://linkedin.com/in/nimanikoo"
+    "linkedin": "https://linkedin.com/in/nima-nikoonazar"
   },
-  "about": "Experienced backend engineer specializing in building scalable microservices architecture. Passionate about clean code, system design, and mentoring junior developers. Strong proficiency in .NET, cloud platforms, and distributed systems.",
+  "about": "Senior backend engineer with 5+ years of experience designing and operating large-scale distributed systems. Specialized in microservices architecture, event-driven systems, and high-throughput platforms. Strong experience in .NET, Kafka, Kubernetes, Redis, and observability tools. Contributed to major open-source projects including OpenTelemetry and Redis ecosystem, with focus on performance optimization and scalability.",
   "skills": [
     {
       "category": "Languages",
-      "items": [".NET/C#", "JavaScript", "SQL", "Python"]
+      "items": ["C#", ".NET", "Python", "SQL"]
     },
     {
-      "category": "Frameworks & Tools",
-      "items": ["ASP.NET Core", "Entity Framework", "Docker", "Kubernetes"]
+      "category": "Backend & Architecture",
+      "items": [
+        "Microservices",
+        "CQRS",
+        "Event-Driven Architecture",
+        "Clean Architecture",
+        "Domain-Driven Design",
+        "Distributed Systems",
+        "CAP Theorem",
+        "Event-Sourcing"
+      ]
     },
     {
-      "category": "Databases",
-      "items": ["SQL Server", "PostgreSQL", "Redis", "MongoDB"]
+      "category": "Messaging & Streaming",
+      "items": [
+        "Kafka",
+        "RabbitMQ",
+        "Apache Flink"
+      ]
     },
     {
-      "category": "Cloud & DevOps",
-      "items": ["Azure", "AWS", "CI/CD Pipelines", "Microservices"]
+      "category": "Databases & Caching",
+      "items": [
+        "PostgreSQL",
+        "SQL Server",
+        "Redis",
+        "MongoDB",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "category": "Infrastructure & DevOps",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "GitLab CI",
+        "Linux",
+        "Nginx"
+      ]
+    },
+    {
+      "category": "Observability",
+      "items": [
+        "OpenTelemetry",
+        "Grafana",
+        "Kibana",
+        "Jaeger",
+        "Structured Logging"
+      ]
+    },
+    {
+      "category": "Cloud & Platforms",
+      "items": [
+        "Azure",
+        "AWS"
+      ]
     }
   ],
   "experience": [
     {
-      "title": "Senior Backend Engineer",
-      "company": "Tech Solutions Inc.",
-      "period": "2021 - Present",
-      "description": "Led design and implementation of microservices architecture serving 10M+ users. Mentored team of 5 engineers and improved system performance by 40%."
+      "title": "Senior Software Engineer - Platform Team",
+      "company": "Okala (Online Supermarket Platform)",
+      "period": "2026 - Present",
+      "description": "Owned and maintained identity & user management, geospatial platform services, large-scale Kubernetes systems, Kafka/Flink streaming pipelines, platform infrastructure (GitOps, API gateway, Nginx), LLM-based agent infrastructure, and reusable internal platform services, with a strong focus on development and maintenance across production systems and engineering tooling."
     },
     {
-      "title": "Backend Engineer",
-      "company": "Digital Innovations Ltd.",
-      "period": "2018 - 2021",
-      "description": "Developed RESTful APIs and microservices using ASP.NET Core. Implemented CI/CD pipelines and containerized applications with Docker and Kubernetes."
+      "title": "Software Engineer",
+      "company": "Azki (Insurance Brokerage)",
+      "period": "2024 - 2026",
+      "description": "Optimized core back-office systems resulting in 70% reduction in database load. Designed API Gateway using Ocelot for scalable routing. Built distributed job scheduling infrastructure with Quartz.NET and monitoring dashboard. Implemented payment and wallet systems for installment processing. Designed load-balanced order assignment system using weighted round-robin. Improved automation pipelines for insurance reconciliation using Python."
     },
     {
-      "title": "Junior Developer",
-      "company": "StartUp Labs",
-      "period": "2016 - 2018",
-      "description": "Built backend services and database solutions. Collaborated with frontend team to deliver features and resolve production issues."
+      "title": ".NET Developer",
+      "company": "Fadak Trains (Railway Systems)",
+      "period": "2023 - 2024",
+      "description": "Designed and implemented ticketing core system using microservices architecture with RabbitMQ and Redis. Built high-scale notification service handling 10K+ events. Developed admin back-office system using Clean Architecture principles. Designed AWS S3-based file management system integrated with CDN. Built background job processing system with Quartz.NET. Improved financial systems integration with external regulatory requirements."
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Agrofood CRM Solutions",
+      "period": "2021 - 2023",
+      "description": "Designed product and pricing management system for enterprise CRM. Achieved 90%+ test coverage using xUnit and Moq. Built scalable backend using .NET 6, CQRS, MediatR, and Docker. Implemented integration and persistence testing strategies for large-scale backend systems."
     }
   ]
 }
