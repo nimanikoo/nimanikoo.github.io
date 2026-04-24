@@ -263,13 +263,13 @@ a:hover {
 }
 
 .skill-tag {
-  background-color: rgba(81, 43, 212, 0.1);
-  color: var(--color-accent);
+  background-color: rgba(81, 43, 212, 0.15);
+  color: #c4b5fd; /* Light purple for better contrast against dark background */
   padding: calc(var(--spacing-unit) * 0.4) calc(var(--spacing-unit) * 1);
   border-radius: 9999px;
   font-size: 0.85rem;
   font-weight: 500;
-  border: 1px solid rgba(81, 43, 212, 0.2);
+  border: 1px solid rgba(81, 43, 212, 0.4);
 }
 
 /* Experience Section */

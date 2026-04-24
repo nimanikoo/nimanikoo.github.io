@@ -111,7 +111,16 @@ function renderExperience() {
 
     const companyEl = document.createElement('div');
     companyEl.className = 'experience-company';
-    companyEl.textContent = job.company;
+    
+    if (job.url) {
+      const link = document.createElement('a');
+      link.href = job.url;
+      link.target = '_blank';
+      link.textContent = job.company;
+      companyEl.appendChild(link);
+    } else {
+      companyEl.textContent = job.company;
+    }
 
     const periodEl = document.createElement('div');
     periodEl.className = 'experience-period';

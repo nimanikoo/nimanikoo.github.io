@@ -77,24 +77,28 @@
     {
       "title": "Senior Software Engineer - Platform Team",
       "company": "Okala (Online Supermarket Platform)",
+      "url": "https://okala.com",
       "period": "2026 - Present",
       "description": "Owned and maintained identity & user management, geospatial platform services, large-scale Kubernetes systems, Kafka/Flink streaming pipelines, platform infrastructure (GitOps, API gateway, Nginx), LLM-based agent infrastructure, and reusable internal platform services, with a strong focus on development and maintenance across production systems and engineering tooling."
     },
     {
       "title": "Software Engineer",
       "company": "Azki (Insurance Brokerage)",
+      "url": "https://azki.com",
       "period": "2024 - 2026",
       "description": "Optimized core back-office systems resulting in 70% reduction in database load. Designed API Gateway using Ocelot for scalable routing. Built distributed job scheduling infrastructure with Quartz.NET and monitoring dashboard. Implemented payment and wallet systems for installment processing. Designed load-balanced order assignment system using weighted round-robin. Improved automation pipelines for insurance reconciliation using Python."
     },
     {
       "title" : "Member of Dontnet Foundation",
       "company": "Dotnet Foundation",
+      "url": "https://dotnetfoundation.org",
       "period": "2023 - Present",
       "description": "Contributed to various open-source projects, focusing on software engineering best practices and community engagement."
     },
     {
       "title": ".NET Developer",
       "company": "Fadak Trains (Railway Systems)",
+      "url": "https://fadaktrains.com",
       "period": "2023 - 2024",
       "description": "Designed and implemented ticketing core system using microservices architecture with RabbitMQ and Redis. Built high-scale notification service handling 10K+ events. Developed admin back-office system using Clean Architecture principles. Designed AWS S3-based file management system integrated with CDN. Built background job processing system with Quartz.NET. Improved financial systems integration with external regulatory requirements."
     },
