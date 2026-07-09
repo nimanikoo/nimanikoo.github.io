@@ -302,6 +302,49 @@ function initMobileMenu() {
 }
 
 // ============================================================================
+// Scroll Effects
+// ============================================================================
+
+/**
+ * Reveal sections as they enter the viewport
+ */
+function initScrollReveal() {
+  const targets = document.querySelectorAll('[data-reveal]');
+  if (!targets.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+  targets.forEach(target => observer.observe(target));
+}
+
+/**
+ * Highlight the nav link matching the section currently in view
+ */
+function initActiveNavLink() {
+  const sections = document.querySelectorAll('main .section[id]');
+  const navLinks = document.querySelectorAll('.nav-menu a');
+  if (!sections.length || !navLinks.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      navLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
+      });
+    });
+  }, { threshold: 0.5, rootMargin: '-80px 0px -40% 0px' });
+
+  sections.forEach(section => observer.observe(section));
+}
+
+// ============================================================================
 // Error Handling
 // ============================================================================
 
@@ -341,6 +384,10 @@ async function initApp() {
 
     // Initialize mobile menu
     initMobileMenu();
+
+    // Initialize scroll-driven effects
+    initScrollReveal();
+    initActiveNavLink();
 
     // Load projects from GitHub
     renderProjects();

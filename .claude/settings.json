@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m http.server 8791)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8791/index.html)",
+      "Bash(node -e \"require\\('fs'\\).readFileSync\\('style.css','utf8'\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(rtk npx *)",
+      "Bash(npm ls *)",
+      "Bash(rtk ls *)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-nimaniko-Code-github-pages/96213271-0383-4752-b09d-39de2930fe51/scratchpad/pw)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(find ~/.cache/ms-playwright/chromium-1228 -maxdepth 3 -iname \"*chrome*\" -o -iname \"*Chromium*\" 2>/dev/null | head -20)",
+      "Read(//Users/nimaniko/.cache/ms-playwright/**)",
+      "Bash(rtk find *)",
+      "Bash(rtk curl *)",
+      "Bash(node shot.js)",
+      "Bash(find ~/Library/Caches/ms-playwright/chromium-1228 -iname \"Google Chrome for Testing\" -type f -print 2>/dev/null | cat)",
+      "Read(//Users/nimaniko/Library/Caches/ms-playwright/chromium-1228/**)",
+      "Bash(pkill -f \"http.server 8791\")"
+    ]
+  }
+}
